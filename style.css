@@ -74,7 +74,7 @@ a {
 .button-menu-toggle {
   display: none;
 }
-.info {
+.letrasinfo {
   padding: 0px 60px 0px 60px;
   display: flex;
   flex-direction: column;
