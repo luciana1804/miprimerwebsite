@@ -74,6 +74,12 @@ a {
 .button-menu-toggle {
   display: none;
 }
+.info {
+  padding: 0px 60px 0px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .column {
     flex: 100%;
