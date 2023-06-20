@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Mi Primer Sitio Web
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+             <a href="index.html" class="brand"><strong>Mi página web</strong></a>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="services.html"><strong>Temas</strong></a></li>
+                    <li><a href="contact.html"><strong>Ejercicios</strong></a></li>
+                    <li><a href="about.html"><strong>Mas informacion</strong></a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+        <main>
+            <div class="container">
+                <div class="wrap">
+                    <h1>¡Hola! este es mi primer sitio Web</h1>
+                </div>
+                <section>
+                    <div class="centro">
+                        <h2>Intro</h2>
+                    </div>
+                    <div class="wrap">
+                        <p><span> Mi nombre es <strong><em>Luciana</em></strong>
+                             y estoy aprendiendo desarrollo web 
+                            para crear sitios webs.
+                        </p>
+                        <p>
+                            <div class="foto">
+                                <img src="https://media1.giphy.com/media/hs67xo8fGYfx5KlBgV/giphy.gif" alt="hola" 
+                                width="100px">
+                            </div>
+                        </p>
+                        <p>En este curso aprenderé HTML,CSS y 
+                            JAVASCRIPT. Este lenguaje me ayudara a crear un a base sólida 
+                            en el desarrollo web front-end. 
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rnmbxqS1nRo" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+            <div class="button1">
+                <button onclick="showAlert()" aria-label="Haz click en mi">¡Haz un click en mi!</button>
+            </div> 
+            <div class="correo">
+                <form id="myForm">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <script src="script.js"></script>
+        </footer>
+    </body>
+</html>
